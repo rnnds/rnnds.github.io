@@ -1,1 +1,33 @@
 
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Integration</title>
+</head>
+<body>
+    
+      <script type="text/javascript" src="https://rnnds.github.io/rd-js-integration.min.js" ></script
+  <p>Integrated Form 1 - Production</p>
+  <form name="test-form-integration">
+    <input type="hidden" name="name" value="test-form-integration">
+    Email:<br>
+    <input type="email" name="email">
+    <br>
+    Nickname:<br>
+    <input type="text" name="nickname">
+      <br>
+    Checkbox without value:<br>
+    <input type="checkbox" name="check">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form> 
+        
+    <script type="text/javascript">
+      RdstationFormsIntegration.Integration.integrateAll('6a17f6b5e83faefbafed08e79de198ad');
+      console.log('FormIntegration; ver.2.0.0', 'initialized');
+    </script>
+
+</body>
+</html>
